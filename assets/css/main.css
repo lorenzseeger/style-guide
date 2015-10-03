@@ -175,7 +175,7 @@ code {
   font-size: 1.25rem;
   /* 20px */
   font-weight: 600;
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color: #727272; }
 
@@ -192,6 +192,27 @@ code {
   padding-bottom: 0.25rem;
   /* 4px */
   color: #989898; }
+
+.button {
+  display: inline-block;
+  background: #333333;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 3px;
+  border: 2px solid #333333;
+  -webkit-transition: all ease-in-out 0.15s;
+          transition: all ease-in-out 0.15s; }
+  .button:hover {
+    background: #fff;
+    color: #333333; }
+
+.button--secondary {
+  background: transparent;
+  color: #333333; }
+  .button--secondary:hover {
+    background: #333333;
+    color: #fff; }
 
 .logo {
   font-size: 2.875rem;
@@ -211,4 +232,5 @@ pre {
   color: #333333;
   border: 1px solid #D8D8D8;
   border-radius: 3px;
-  padding: 1rem; }
+  padding: 1rem;
+  margin-bottom: 3rem; }

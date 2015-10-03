@@ -1,3 +1,13 @@
 Title: Buttons
 ----
-Text: Lorem ipsum dolor sit amed.
+Text:
+
+(link: # class: button button--primary text: Button Primary)
+```
+<a href="#" class="button">Button Primary</a>
+```
+
+(link: # class: button button--secondary text: Button Secondary)
+```
+<a href="#" class="button button--secondary">Button Secondary</a>
+```

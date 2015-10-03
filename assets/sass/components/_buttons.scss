@@ -1,0 +1,25 @@
+.button {
+  display: inline-block;
+  background: $color-dark-grey;
+  color: $color-white;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 3px;
+  border: 2px solid $color-dark-grey;
+  transition: all ease-in-out 0.15s;
+
+  &:hover {
+    background: $color-white;
+    color: $color-dark-grey;
+  }
+}
+
+.button--secondary {
+  background: transparent;
+  color: $color-dark-grey;
+
+  &:hover {
+    background: $color-dark-grey;
+    color: $color-white;
+  }
+}
