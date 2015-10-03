@@ -1,3 +1,35 @@
 Title: Colors
 ----
-Text: Lorem ipsum dolor sit amed.
+Text:
+
+This page shows the color palette of the project.
+
+<div class="color color--primary"></div>
+```
+HEX: #FFBF51
+RGB: (255,191,81)
+```
+
+<div class="color color--secondary"></div>
+```
+HEX: #6860C3
+RGB: (104,96,195)
+```
+
+<div class="color color--ten-shades"></div>
+```
+HEX: #E5E5E5
+RGB: (229,229,229)
+```
+
+<div class="color color--fifty-shades"></div>
+```
+HEX: #7F7F7F
+RGB: (127,127,127)
+```
+
+<div class="color color--ninety-shades"></div>
+```
+HEX: #191919
+RGB: (25,25,25)
+```
