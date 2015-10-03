@@ -1,0 +1,20 @@
+.menu li a {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 600;
+  display: block;
+  text-decoration: none;
+  color: $color-menu-first-level;
+}
+
+.menu li a:hover,
+.menu li a.active {
+  color: $color-menu-hover;
+}
+
+.submenu li a {
+  font-size: 1rem; /* 16px */
+  font-weight: 400;
+  padding-top: 0.25rem; /* 4px */
+  padding-bottom: 0.25rem; /* 4px */
+  color: $color-menu-second-level;
+}

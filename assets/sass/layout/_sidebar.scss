@@ -1,0 +1,9 @@
+.sidebar {
+  @include respond-to('small') {
+    width: 100%;
+  }
+
+  @include respond-to('medium') {
+    width: 33.33%;
+  }
+}

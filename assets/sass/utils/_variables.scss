@@ -1,0 +1,24 @@
+// Font Sizes
+
+$as-h1: 2.875rem;
+$as-h2: 2rem;
+$as-h3: 1.375rem;
+$as-h4: 1.25rem;
+$as-p: 1.25rem;
+
+// General
+
+$color-border: #D8D8D8;
+$color-menu-first-level: #727272;
+$color-menu-second-level: #989898;
+$color-menu-hover: #333333;
+$color-light-grey: #f6f6f6;
+$color-dark-grey: #333333;
+
+// Breakpoints
+
+$breakpoints: (
+  'small': (min-width: 320px),
+  'medium': (min-width: 768px),
+  'large': (min-width: 1024px),
+);

@@ -1,0 +1,11 @@
+pre {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  background: $color-light-grey;
+  color: $color-dark-grey;
+  border: 1px solid $color-border;
+  border-radius: 3px;
+  padding: 1rem;
+}

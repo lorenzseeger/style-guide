@@ -1,0 +1,9 @@
+.content {
+  @include respond-to('small') {
+    width: 100%;
+  }
+  
+  @include respond-to('medium') {
+    width: 66.66%;
+  }
+}

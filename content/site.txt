@@ -1,0 +1,17 @@
+Title: Style Guide
+
+----
+
+Author: Lorenz Seeger
+
+----
+
+Description: Style Guide is a basic Style Guide Template
+
+----
+
+Keywords: StyleGuide, Kirby
+
+----
+
+Copyright: © (date: Year) Style Guide

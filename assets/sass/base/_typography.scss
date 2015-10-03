@@ -1,0 +1,66 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+}
+
+// General Styles
+
+h1,h2,h3,h4 {
+  font-weight: 700;
+  line-height: 1;
+}
+
+h1,
+.as-h1 {
+  font-size: 2.875rem; /* 46px */
+  margin-bottom: 1rem; /* 16px */
+}
+
+h2,
+.as-h2 {
+  font-size: 2rem; /* 32px */
+  margin-bottom: 1rem; /* 16px */
+}
+
+h3,
+.as-h3 {
+  font-size: 1.375rem; /* 26px */
+  margin-bottom: 1rem; /* 16px */
+}
+
+h4,
+.as-h4 {
+  font-size: 1.25rem; /* 20px */
+  margin-bottom: 1rem; /* 16px*/
+}
+
+p {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 0.875rem; /* 14px*/
+}
+
+
+// If h2 follows after paragraph, add more margin to the top
+
+p + h2 {
+  margin-top: 2.875rem; /* 46px */
+}
+
+strong {
+  font-weight: 700;
+}
+
+// Lists
+
+ul,
+ol {
+  line-height: 1.5;
+  margin-bottom: 1rem; /* 16px */
+}
+
+code {
+  font-family: "Fira Mono", Courier, monospace;
+}
