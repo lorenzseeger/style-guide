@@ -45,6 +45,7 @@ p {
 
 // If h2 follows after paragraph, add more margin to the top
 
+p + h1,
 p + h2 {
   margin-top: 2.875rem; /* 46px */
 }

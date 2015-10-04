@@ -1,3 +1,29 @@
 Title: Typography
 ----
-Text: Lorem ipsum dolor sit amed.
+Text:
+
+Display the typographic Hierarchy of your project.
+
+# Headline 1
+```
+Option 1: <h1>Headline 1</h1>
+Option 2: <p class="as-h1">Headline 1</p>
+```
+
+## Headline 2
+```
+Option 1: <h1>Headline 2</h1>
+Option 2: <p class="as-h2">Headline 1</p>
+```
+
+### Headline 3
+```
+Option 1: <h1>Headline 3</h1>
+Option 2: <p class="as-h3">Headline 1</p>
+```
+
+#### Headline 4
+```
+Option 1: <h1>Headline 4</h1>
+Option 2: <p class="as-h4">Headline 1</p>
+```
