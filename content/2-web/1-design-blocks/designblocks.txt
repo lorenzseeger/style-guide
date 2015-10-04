@@ -1,11 +1,29 @@
 Title: Design Blocks
 ----
-Text: Lorem ipsum dolor sit amed.
+Text: Design Blocks help to structure your content easily. No over-engineered grid that blows up your mind, just very easy-to-use blocks.
+
+<div class="block">
+  <div class="block-content">
+    <p>This is my column.</p>
+  </div>
+  <div class="block-content">
+    <p>This is my column.</p>
+  </div>
+  <div class="block-content">
+    <p>This is my column.</p>
+  </div>
+</div>
 
 ```
-<?php
-
-// awesome code example
-
-?>
+<div class="block">
+  <div class="block-content">
+    <p>This is my column.</p>
+  </div>
+  <div class="block-content">
+    <p>This is my column.</p>
+  </div>
+  <div class="block-content">
+    <p>This is my column.</p>
+  </div>
+</div>
 ```

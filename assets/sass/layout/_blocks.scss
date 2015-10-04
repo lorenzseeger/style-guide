@@ -1,0 +1,99 @@
+.block {
+  @include clearfix;
+  width: 100%;
+  max-width: 100%;
+}
+
+// Column Widths
+
+$col-1: 8.33%;
+$col-2: 16.67%;
+$col-3: 25%;
+$col-4: 33.33%;
+$col-5: 41.67%;
+$col-6: 50%;
+$col-7: 58.33%;
+$col-8: 66.67%;
+$col-9: 75%;
+$col-10: 83.33%;
+$col-11: 91.67%;
+$col-12: 100%;
+
+@include respond-to('small') {
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: $col-12;
+  }
+}
+
+@include respond-to('medium') {
+  .col-1 {
+    width: $col-1;
+  }
+
+  .col-2 {
+    width: $col-2;
+  }
+
+  .col-3 {
+    width: $col-3;
+  }
+
+  .col-4 {
+    width: $col-4;
+  }
+
+  .col-5 {
+    width: $col-5;
+  }
+
+  .col-6 {
+    width: $col-6;
+  }
+
+  .col-7 {
+    width: $col-7;
+  }
+
+  .col-8 {
+    width: $col-8;
+  }
+
+  .col-9 {
+    width: $col-9;
+  }
+
+  .col-10 {
+    width: $col-10;
+  }
+
+  .col-11 {
+    width: $col-11;
+  }
+
+  .col-12 {
+    width: $col-12;
+  }
+}
+
+.block-content {
+  @include respond-to('small') {
+    width: 100%;
+  }
+
+  @include respond-to('medium') {
+    width: $col-4;
+    display: block;
+    float: left;
+  }
+}
